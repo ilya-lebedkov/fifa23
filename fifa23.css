@@ -20,3 +20,8 @@
     border: 10px ;
     
   }
+
+  cards {
+    padding: 20px;
+    padding-right: 40px;
+  }
