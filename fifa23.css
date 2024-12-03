@@ -21,7 +21,12 @@
     
   }
 
-  cards {
+  .cards {
     padding: 20px;
     padding-right: 40px;
+  }
+
+  .sss {
+    background-color: cornsilk;
+    border-color:aliceblue
   }

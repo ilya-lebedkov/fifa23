@@ -12,17 +12,42 @@
     
     <!-- НАЧАЛО КОДА -->
      
-    <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
-      <li class="nav-item" role="presentation">
-        <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Главная</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Профиль</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Контакт</button>
-      </li>
-    </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">меню навигации</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="fifa23.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">что то </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                список всех сылок сайта
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">условия</a></li>
+                <li><a class="dropdown-item" href="#">реклама</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+            <button class="btn btn-outline-success" type="submit">Поиск</button>
+          </form>
+        </div>
+      </div>
+    </nav>
 
   <div class="btn-group">
     <button class="btn btn-secondary btn-lg" type="button">
@@ -35,6 +60,20 @@
       что то 
     </ul>
   </div>
+
+  <button type="button" class="btn btn-primary" id="liveToastBtn" onclick="alert('Это тестированный сайт')">тут</button>
+  <button type="button" class="sss" id="liveToastBtn" onclick="alert('абаюдна🤙🤙🤙 тумбаюмба🤙🤙🤙🤙')">🤙</button>
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="" class="rounded me-2" alt="...">
+      <strong class="me-auto">Bootstrap</strong>
+      <small>11 мин назад</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" ></button>
+    </div>
+  </div>
+</div>
   
 
   <h1>Введите свои данные для получение нового контента</h1>
@@ -118,16 +157,16 @@
       <a class="navbar-brand" href="#">Панель навигации</a>
       <ul class="nav nav-pills">
         <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading1">Первый</a>
+          <a class="nav-link" href="#scrollspyHeading1">Робаксы</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading2">Второй</a>
+          <a class="nav-link" href="#scrollspyHeading2">Гемы из браво старс</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Выпадающий список</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#scrollspyHeading3">Третий</a></li>
-            <li><a class="dropdown-item" href="#scrollspyHeading4">Четвертый</a></li>
+            <li><a class="dropdown-item" href="#scrollspyHeading3">Банана коин</a></li>
+            <li><a class="dropdown-item" href="#scrollspyHeading4">В баксы</a></li>
             <li><hr class="dropdown-divider"></li>
             
           </ul>
@@ -149,13 +188,14 @@
       </div>
         </td>
         <td>
-        <h1>sadasssssssssssssssssssssssssssssssssssssssssssss</h1>
+        <h1 class="hi">Робакс, Робукс (англ. ROBUX), или R$ — единственная валюта в Roblox (начиная с 14 апреля 2016 года). Идея создать робаксы была выдвинута в декабре 2006 года, а добавлены они были 14 мая 2007 года, как замена Roblox Поинтов.</h1>
       </td>
     </tr>
     </table>
     <table>
       <tr>
         <td>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
       <h4 id="scrollspyHeading2">Второй заголовок</h4>
       <div class="card" style="width: 18rem;">
         <img src="https://sun9-15.userapi.com/impf/c850432/v850432118/f1fab/VfaDCaKXM4Q.jpg?size=520x0&quality=95&sign=4e929a36b4f8b10aeaf762edbb0ed5b8" class="card-img-top" alt="...">
@@ -167,39 +207,56 @@
       </div>
     </td>
     <td>
-    <h1>sadasssssssssssssssssssssssssssssssssssssssssssss</h1>
+    <h1>Кристаллы (англ. Gems) — валюта, получаемая в Brawl Pass или в Магазине и используемая для покупки скинов, удвоителей боевого опыта, монет, ежедневных предложений и акций.
+    </h1>
   </td>
 </tr>
 </table>
 <table>
   <tr>
     <td>
-      
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0"></div>
       <h4 id="scrollspyHeading3">Третий заголовок</h4>
       <div class="card" style="width: 18rem;  ">
-        <img src="https://adminer.fornite.market/uploads/5000_v_bucks_2_e853571be2.png" class="card-img-top" alt="...">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKTcJirSy9HND1yNpLUCEzK1do3dNvm9wU8Q&s" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Вбаксы оооооочееень выгодная цена</h5>
+          <h5 class="card-title">бананы оочееень выгодная цена</h5>
           <p class="card-text">Да на самом деле самая выгодная цена на рынке интернет продаж, реально очень крутой курс и очень выгодная цена</p>
           <a href="#" class="btn btn-primary stretched-link">Перейти к покупке</a>
         </div>
+      </div>
       </td>
       <td>
-      <h1>sadasssssssssssssssssssssssssssssssssssssssssssss</h1>
+      <h1>Бана́н — название съедобных плодов культивируемых растений рода Банан (Musa); обычно под таковыми понимают Musa acuminata и Musa × paradisiaca, а также Musa balbisiana, Musa fehi[англ.], Musa troglodytarum[англ.] и ряд других. Также бананами могут называть плоды Ensete ventricosum[англ.] (строго говоря, являющегося представителем другого рода семейства Банановые)[1][2]. С ботанической точки зрения банан является ягодой[3], многосеменной и толстокожей. У культурных форм часто отсутствуют семена, ненужные при вегетативном размножении. Плоды имеют длину 6—30 см и диаметр 2—5 см. Соплодия могут состоять из 300 плодов и иметь массу до 50—60 кг[4].</h1>
     </td>
     </tr>
     </table>
+    <table>
+      <tr>
+        <td>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0"></div>
       <h4 id="scrollspyHeading4">Четвертый заголовок</h4>
       <div class="card" style="width: 18rem;  ">
-        <img src="https://adminer.fornite.market/uploads/5000_v_bucks_2_e853571be2.png" class="card-img-top" alt="...">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7LYHQgNwq7k4dK0JAvueHHMXa-cXiwhJ5zA&s" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">фифа 23 очень крутая версия новейшая</h5>
           <p class="card-text">Да на самом деле самая выгодная цена на рынке интернет продаж, реально очень крутой курс и очень выгодная цена</p>
           <a href="#" class="btn btn-primary stretched-link">Перейти к покупке</a>
         </div>
-    
+      </div>
+      
+        
 
-    </div>
+      
+    </td>
+    <td>
+    <h1>FIFA 23 — компьютерная игра в жанре спортивного симулятора, 30-я в серии FIFA, разработанная компанией EA Vancouver под издательством Electronic Arts. Видеоигра вышла на ПК, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S и Nintendo Switch 30 сентября 2022 года[2].
+
+      FIFA 23 является заключительной игрой в серии, разработанной Electronics Arts. В 2022 году EA и FIFA объявили о завершении сотрудничества, следующий футбольный симулятор от EA носит название EA Sports FC[3].</h1>
+  </td>
+  </tr>
+  </table>
+
   
 
   </form>
@@ -208,6 +265,44 @@
               
           <label for="customRange1" class="form-label">Насколько вы оценете наш сайт</label>
           <input type="range" class="form-range" id="customRange1">
+          <table>
+            <td>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://ribakitshop.ru/uploads/product/4100/4150/reklama.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  </div>
+            </td>
+            <td>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://ribakitshop.ru/uploads/product/4100/4150/reklama.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  </div>
+            </td>
+            <td>
+              <div class="card" style="width: 18rem;">
+                <img src="https://ribakitshop.ru/uploads/product/4100/4150/reklama.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                </div>
+          </td>
+          <td>
+            <div class="card" style="width: 18rem;">
+              <img src="https://ribakitshop.ru/uploads/product/4100/4150/reklama.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              </div>
+        </td>
+        <td>
+          <div class="card" style="width: 18rem;">
+            <img src="https://ribakitshop.ru/uploads/product/4100/4150/reklama.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            </div>
+      </td>
+            
+          
+          </table>
+            
+          </div>
+          <a href="reklama.html" class="button">приобрести рекламу</a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
   </body>
 </html>
